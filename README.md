@@ -6,7 +6,7 @@ There cannot be a finite isolated set which the knight cannot reach.
 
 $N(x, y)$ means that there exist a step from $x \rightarrow y$.
 $N_{small}(x, y)$ means that $\forall q \neq y: N(x, q) \Rightarrow q > y$.
-Every square $s$ has a neighbor $n$ such that $N_{small}(n, s) \land n > s$. For $s$ to be unreachable, $n$ must also be unreachable. As $n > s$ is true, this means that we need an infinite unreachable set $X$ with $\forall p \in X: \exist q: N_{small}(q, p)$
+Every square $s$ has a neighbor $n$ such that $N_{small}(n, s) \land n > s$. For $s$ to be unreachable, $n$ must also be unreachable. As $n > s$ is true, we need an infinite unreachable set $X$ with $\forall p \in X: \exist q: N_{small}(q, p)$
 
 > At move 99999, the least yet unvisited square has number 66048, which is near the border of the visited region. This suggests that the knight will eventually visit every square. Can this be proved or disproved through a counter-example?
 
