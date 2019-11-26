@@ -1,5 +1,8 @@
 # OEIS A323809
 
+To preview this file, I recommend opening README.html in a browser.
+The visual studio code extension [Markdown+Math] is used to render the equations.
+
 > More formally, let us call "isolated" a set of unvisited squares which is connected through knight moves, but which cannot be extended to a larger such set by adding a further square. Can there exist at some moment a finite isolated set which the knight cannot reach? (Without the last condition, the square a(2016) would clearly satisfy the condition just before the knight reaches it.)
 
 There cannot be a finite isolated set which the knight cannot reach.
@@ -13,4 +16,7 @@ For $s$ to be unreachable, $n$ must also be unreachable. As $n > s$ is true, we 
 
 The knight will eventually visit every square.
 
-The knight goes in circles around the origin (TODO: prove), meaning that there must not be a wall of $p \in X$. Looking at the smallest $s$ which is not visited, this is impossible (TODO: prove).
+The knight goes in circles around the origin (TODO: prove), meaning that there must not be a wall of $p \in X$.
+Looking at the smallest $s$ which is not visited, this is impossible (TODO: prove).
+
+[Markdown+Math]: https://marketplace.visualstudio.com/items?itemName=goessner.mdmath
